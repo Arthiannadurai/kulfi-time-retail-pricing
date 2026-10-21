@@ -1,0 +1,25 @@
+
+.env
+.venv/
+__pycache__/
+*.py[cod]
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# React / Node
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# IDE and OS
+.vscode/
+.DS_Store
+Thumbs.db
